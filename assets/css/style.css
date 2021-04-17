@@ -227,8 +227,8 @@ button {
     font-size: 1.1em;
     background: #ff3571;
     border: none;
-    outline: none;
     border-radius: 4px;
+    outline: none;
     margin: 0 auto;
     padding: 18px 80px;
 }
