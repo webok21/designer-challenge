@@ -1,0 +1,256 @@
+/* Font: Roboto
+Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;  
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+h1 {
+    font-size: 3.1em;
+    font-weight: 700;
+}
+h2 {
+    font-size: 1em;
+    font-weight: 700;
+}
+main p {
+    color: #0b0c17;
+    line-height: 2.1em;
+}
+
+/* H E A D E R */
+
+/* background */
+
+header {
+    height: 100vh;
+    background: url(../img/ilustracion_people.png) right top / 55% no-repeat, url(../img/ilustracion1.png) right top / 55% no-repeat;
+    animation: fallingMan 3s infinite;
+}
+@keyframes fallingMan {
+ 50% {background-position: right center, right top;}
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    padding: 3%;
+} 
+#logo {
+    position: fixed;
+}
+#design-project {
+    margin-left: 53px;
+}
+#design-project h1 {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+#design-project p {
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+/* header-content */
+
+#header-content {
+    width: 40%;
+    margin-top: 24vh;
+    margin-left: 8%;
+}
+#header-content h1 {
+    font-size: 4em;
+    font-weight: 700;
+}
+.text-rocket {
+    font-size: 1.2em;
+    margin-top: 2vh;
+}
+.scroll {
+    color: #ff3571;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-top: 18vh;
+}
+
+/* S E C T I O N - gallery */
+
+#gallery {
+    margin-top: 10vh;
+    margin-bottom: 40vh;
+}
+#gallery img {
+    width: 100%;
+}
+
+/* S E C T I O N (idea) - Every idea starts with a need */
+
+#idea {
+    display: flex;
+    margin-bottom: 20vh;
+}
+.idea-title {
+    width: 25%;
+    margin-left: 12%
+}
+.idea-title img {
+    width: 17%;
+}
+.idea-text {
+    width: 42%;
+    padding-top: 4vh;
+    margin-left: 8%;
+}
+
+/* S E C T I O N (learned) - After several week of sticking to this challenge */
+
+#learned {
+    display: flex;
+    flex-wrap: wrap;
+}
+#learned h1 {
+    width: 50%;
+    margin-left: 12%;
+    margin-bottom: 25vh;
+}
+#learned p {
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+}
+.learned-left,
+.learned-right {
+    width: 28%;
+    position: relative;
+    padding: 0 0 0 4%;
+}
+.learned-left {
+    margin-right: 13%;
+    margin-left: 12%;
+}
+#learned img {
+    width: 8%;
+    position: absolute;
+    top: -13px;
+    left: 0;
+}
+
+/* S E C T I O N (challenge) - Are you read? Let's go!! */
+#challenge {
+    margin-top: 15vh;
+}
+#challenge > h1 {
+    text-align: center;
+}
+#challenge > p {
+    font-size: 1.3em;
+    text-align: center;
+    width: 55%;
+    line-height: 1.6em;
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20vh;
+}
+.container:nth-of-type(even) {
+    margin-right: 10%;
+}
+.container h1 {
+    font-size: 4em;
+    color: #dddddd;
+    margin-bottom: 7vh;
+}
+.container h2 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.img-left img{
+    height: 60vh;
+    margin-left: 10%;
+}
+.content-right {
+    width: 41%;
+    margin-left: 5%;
+}
+.img-right img {
+    height: 60vh;
+    margin-left: 3%;
+}
+.content-left {
+    width: 46%;
+    margin-left: 9%;
+}
+
+
+/* F O O T E R */
+
+footer {
+    text-align: center;
+}
+footer p {
+    font-size: 1.4em;
+    margin: 7vh 0;
+}
+.created-by {
+    font-size: 1em;
+    text-align: left;
+    margin: 20vh 0 3vh 9%;
+}
+.created-by img {
+    width: 22px;
+}
+input {
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 47%;
+    height: 9vh;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 50px 2px rgba(0, 0, 0, 0.1);
+    outline: none;
+    margin-bottom: 5vh;
+}
+button {
+    display: block;
+    color: #fff;
+    font-size: 1.1em;
+    background: #ff3571;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 18px 80px;
+}
+button:hover {
+    background: linear-gradient(to right,#ff3571 ,#3C30FF );
+}
+footer img {
+    animation: heartbeat 2s infinite;
+    position: relative;
+    bottom: 4px;
+    left: 15px;
+}
+@keyframes heartbeat {
+    0% {    
+        transform: scale(1);  
+    }
+    50% {    
+        transform: scale(1.5);  
+    }
+    100% {
+        transform: scale(1);
+    }
+} 
