@@ -135,9 +135,6 @@ nav {
     margin-top: 15vh;
     text-align: center;
 }
-#challenge h1 {
-    padding-top: 7vh;
-}
 #challenge > p {
     font-size: 1.3em;
     line-height: 1.6em;
@@ -157,7 +154,7 @@ nav {
 .container h1 {
     color: #dddddd;
     font-size: 4em;
-    margin-bottom: 7vh;
+    margin: 7vh 0;
 }
 .container h2 {
     margin: 3vh 0;
