@@ -159,8 +159,7 @@ nav {
 .container h2 {
     margin: 3vh 0;
 }
-.img-left img, 
-.img-right img {
+.challenge-img img {
     height: 60vh;
     margin: 10% 0 3%;
 }
