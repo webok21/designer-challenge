@@ -139,7 +139,9 @@ nav {
     font-size: 1.3em;
     line-height: 1.6em;
     width: 55%;
-    margin: 5vh 0 20vh auto;
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
 }
 .container {
     text-align: left;
