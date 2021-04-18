@@ -73,7 +73,7 @@ nav {
     font-weight: 700;
 }
 
-/* S E C T I O N - gallery */
+/* A S I D E - gallery */
 
 #gallery {
     margin: 20vh 0 40vh;
@@ -82,7 +82,7 @@ nav {
     width: 100%;
 }
 
-/* S E C T I O N (idea) - Every idea starts with a need */
+/* A R T I C L E (idea) - Every idea starts with a need */
 
 #idea {
     display: flex;
@@ -101,7 +101,7 @@ nav {
     margin-left: 8%;
 }
 
-/* S E C T I O N (learned) - After several week of sticking to this challenge */
+/* A R T I C L E (learned) - After several week of sticking to this challenge */
 
 #learned {
     display: flex;
@@ -130,7 +130,7 @@ nav {
     left: 0;
 }
 
-/* S E C T I O N (challenge) - Are you read? Let's go!! */
+/* A R T I C L E (challenge) - Are you read? Let's go!! */
 #challenge {
     margin-top: 15vh;
     text-align: center;
