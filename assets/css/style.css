@@ -183,14 +183,6 @@ footer p {
     font-size: 1.4em;
     margin: 7vh 0;
 }
-.created-by {
-    font-size: 1em;
-    text-align: left;
-    margin: 20vh 0 3vh 9%;
-}
-.created-by img {
-    width: 22px;
-}
 input {
     font-size: 1.2em;
     text-align: center;
@@ -215,6 +207,11 @@ button {
 }
 button:hover {
     background: linear-gradient(to right,#ff3571 ,#3C30FF );
+}
+footer p:last-of-type {
+    font-size: 1em;
+    text-align: left;
+    margin: 20vh 0 3vh 9%;
 }
 footer img {
     animation: heartbeat 2s infinite;
