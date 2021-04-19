@@ -86,7 +86,6 @@ nav {
 
 #idea {
     display: flex;
-    margin-bottom: 20vh;
 }
 .idea-title {
     width: 25%;
@@ -106,6 +105,7 @@ nav {
 #learned {
     display: flex;
     flex-wrap: wrap;
+    margin: 20vh 0 15vh;
 }
 #learned h1 {
     width: 50%;
@@ -131,8 +131,8 @@ nav {
 }
 
 /* A R T I C L E (challenge) - Are you read? Let's go!! */
+
 #challenge {
-    margin-top: 15vh;
     text-align: center;
 }
 #challenge > p {
